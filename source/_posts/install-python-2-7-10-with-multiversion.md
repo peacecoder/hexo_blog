@@ -43,3 +43,12 @@ sudo /usr/local/bin/easy_install-2.7 pip
 ```shell
 sudo /usr/local/bin/pip2.7 install pykafka
 ```
+
+## Install pip2.6 (python 2.6)
+run as root user
+
+```
+cd /tmp
+wget "https://bootstrap.pypa.io/get-pip.py"
+python get-pip.py
+```
