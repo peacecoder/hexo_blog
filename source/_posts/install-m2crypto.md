@@ -60,7 +60,7 @@ this error is because new version of Mac OS EL Capitan 10.11.6 is not allow to o
 another option is check swig command
 
 ```
-swig -python -I/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7 -I/usr/include -includeall -modern -builtin -outdir build/lib.macosx-10.11-intel-2.7/M2Crypto -o SWIG/        _m2crypto_wrap.c SWIG/_m2crypto.i
+swig -python -I/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7 -I/usr/include -includeall -modern -builtin -outdir build/lib.macosx-10.11-intel-2.7/M2Crypto -o SWIG/_m2crypto_wrap.c SWIG/_m2crypto.i
 ```
 
 by `swig --hel` we find that
